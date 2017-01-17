@@ -5,7 +5,7 @@
 # Author:       Douglas Green
 #
 # Created:      17/01/2017
-# Copyright:    (c) Douglas Green 20xx
+# Copyright:    (c) Douglas Green 2017
 # Licence:      GPL 2.0
 # -------------------------------------------------------------------------------
 
