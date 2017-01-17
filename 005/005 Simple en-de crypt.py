@@ -21,7 +21,7 @@ Gets the appropriate information form the user
 		msg = input('Type your secret message here:')
 		off = int(input('choose and offset, type a positive number here:'))
 		fill = int(input('How many filling characters would you like to use:'))
-		encrypter(int(off), int(fill), str(msg))
+		encrypter(off, fill, msg)
 	except TypeError:
 		print('Unknown characters please try again')
 		usr_input()
@@ -95,7 +95,7 @@ Returns string of random characters
 	# How many randomised letters do we need
 	while x > 0:
 		# From the range of letters digits and spaces select one
-		y += random.choice(string.ascii_letters + string.digits + " ")
+		y += random.choice(string.ascii_letters + string.digits + string.punctuation + " ")
 		x -= 1
 	return y
 
